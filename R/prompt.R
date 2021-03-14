@@ -36,6 +36,7 @@ rstudio_prompt = function(expr, value, ok, visible) {
   paste0(
     # status, " ",
          grey()(mem),
+         " \U1F4BB ",
          #       crayon::blue(pkg))
          grey()(git),
          grey()(clisymbols::symbol$pointer), " ")
